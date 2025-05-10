@@ -7,7 +7,7 @@ My Kubernetes homelab: more expensive and less reliable than the cloud, but way 
 #### Motivation
 The goal of this project is to give all of my networking toys a home that fits in the attic crawl-space or on a self in the basement.
 
-Eventually, this project will culminate with my own private cloud and self-hosted kuberenttes cluster, so I would like to keep performance and upgradability in mind. Going to start with k3s with the eventual goal of Talos.
+Eventually, this project will culminate with my own private cloud and self-hosted kubernetes cluster, so I would like to keep performance and upgradability in mind. Going to start with k3s with the eventual goal of Talos.
 
 #### Hardware
 | Piece	| What it is | Cost, as of May 1st, 2025, (*including 6% sales tax) |
@@ -31,4 +31,4 @@ All that really remains now is to decide what sort of compute should I put insid
 I was thinking of starting out with 2x Dell Optiplex 7070 Micro, with i7, 16g RAM, 128 SSD? Anyone else have any suggestions, on either new or used compute to power this rack?
 
 #### Special Thanks 🙌
-* **Jeff Geerling** — “Project Mini Rack” for inspring my Amazon shopping list
+* **Jeff Geerling** — “Project Mini Rack” for inspiring my Amazon shopping list.
