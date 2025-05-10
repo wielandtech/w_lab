@@ -18,7 +18,7 @@ Eventually, this project will culminate with my own private cloud and self-hoste
 | **Patch Panel** | Rapink Mini 12 Port Cat6A Patch Panel | $28 |
 | **Switch** | TP-Link TL-SG108 8 Port Gigabit Switch | $20 |
 | **Compute**	| ???? You Decide ???? | $300-$600 |
-| **NAS** | Synology DS923+ (2x Seagate IronWolf 8TB RAID1, 2x 500GB WD Red SN700 NVMe) | $1,138.41 |
+| **NAS** | Synology DS923+ (2x Seagate IronWolf 8TB RAID1, 2x 500GB WD Red SN700 NVMe) | $1,138.41* |
 | **UPS**	| Tripp Lite 600VA 300W UPS - BC600R | $105.99* |
 | **USB Power**	| 300 W USB‑C charging station | $24.78* |
 | **Misc. Devices** | Philips Hue Bridge | included with lights |
