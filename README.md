@@ -10,6 +10,12 @@ My Kubernetes homelab: more expensive and less reliable than the cloud, but way 
       <br><em>Front View</em>
     </td>
     <td align="center" width="50%">
+      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" alt="Homelab Back View" width="400" style="max-width: 100%; height: auto;">
+      </a>
+      <br><em>Back View</em>
+    </td>
+    <td align="center" width="50%">
       <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" target="_blank">
         <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" alt="Homelab Left Side View" width="400" style="max-width: 100%; height: auto;">
       </a>
@@ -23,22 +29,16 @@ My Kubernetes homelab: more expensive and less reliable than the cloud, but way 
       </a>
       <br><em>Right Side View</em>
     </td>
-    <td align="center" width="50%">
-      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" target="_blank">
-        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" alt="Homelab Back View" width="400" style="max-width: 100%; height: auto;">
-      </a>
-      <br><em>Back View</em>
-    </td>
   </tr>
 </table>
 
 
-#### Motivation
+## 🤖 Motivation
 The goal of this project is to give all of my networking toys a home that fits in the attic crawl-space or on a self in the basement.
 
 Eventually, this project will culminate with my own private cloud and self-hosted kubernetes cluster, so I would like to keep performance and upgradability in mind. Going to start with k3s with the eventual goal of Talos.
 
-#### Hardware
+## 🔧 Hardware
 | Piece	| What it is | Cost, as of May 1st, 2025, (*including 6% sales tax) |
 |-------|------------| --------------------------|
 | **Router/Firewall** | UniFi UCG-Fiber | $295.74* |
@@ -65,7 +65,7 @@ Eventually, this project will culminate with my own private cloud and self-hoste
 
 
 
-#### Software Stack
+## 🧠 Software Stack
 This homelab runs a complete Kubernetes infrastructure with GitOps automation:
 
 | Component | Technology | Purpose |
@@ -78,7 +78,7 @@ This homelab runs a complete Kubernetes infrastructure with GitOps automation:
 | **Certificates** | cert-manager | Automated TLS certificate management |
 | **Secrets** | Sealed Secrets | Encrypted secrets management for GitOps |
 
-#### Applications & Services
+## ⚡ Applications & Services
 The cluster hosts a variety of self-hosted applications:
 
 **Media & Entertainment:**
@@ -95,10 +95,10 @@ The cluster hosts a variety of self-hosted applications:
 **Dashboard:**
 - **Homepage** - Unified dashboard with service integrations and widgets
 
-#### Repository Links
+## 🔗 Repository Links
 - **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
 - **📸 Documentation**: [w_lab](https://github.com/wielandtech/w_lab) - Public documentation and photos
 
-#### Special Thanks 🙌
+## 🙏 Special Thanks
 * [**Jeff Geerling**](https://github.com/geerlingguy) — ["Project Mini Rack"](https://github.com/geerlingguy/mini-rack) for inspiring my shopping list.
 * [**Mischa van den Burg**](https://github.com/mischavandenburg) — ["K8S Homelab"](https://github.com/mischavandenburg/homelab) for inspiring my stack.
