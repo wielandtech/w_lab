@@ -12,13 +12,13 @@ Eventually, this project will culminate with my own private cloud and self-hoste
 |-------|------------| --------------------------|
 | **Router/Firewall** | UniFi UCG-Fiber | $295.74* |
 | **Cellular Failover Router** | NETGEAR Nighthawk M1 | no longer sold |
-| **Access Point** | UniFi U7-Pro-Wall | $199 |
+| **Access Point** | UniFi U7-Pro-Wall | $210.94* |
 | **Switch A** | UniFi USW-Pro-XG-8-PoE | $528.94* |
 | **Switch B** | UniFi USW-Ultra | $136.74* |
-| **Patch Cables** | Assorted UniFi Patch Cables | $68.86 |
-| **Patch Cables** | Assorted Monoprice Patch Cables | $87.92 |
+| **Patch Cables** | Assorted UniFi Patch Cables | $68.86* |
+| **Patch Cables** | Assorted Monoprice Patch Cables | $87.92* |
 | **Patch Panel A** | DeskPi 12 Port CAT6 Network Patch Panel | $24.37* |
-| **Patch Panel B** | Rapink Mini 12 Port Cat6A Patch Panel | $28 |
+| **Patch Panel B** | Rapink Mini 12 Port Cat6A Patch Panel | $29.68* |
 | **Compute**	| 3x Dell OptiPlex 7060 (i5 i5-8500T CPU, 16GB RAM, 2.5GbE NIC) | $340.45 |
 | **NAS** | Synology DS923+ (2x Seagate IronWolf 8TB RAID1, 2x 500GB WD Red SN700 NVMe, 10GbE NIC) | $1,255* |
 | **UPS**	| Tripp Lite 600VA 300W UPS - BC600RNC | $155.09* |
@@ -30,7 +30,7 @@ Eventually, this project will culminate with my own private cloud and self-hoste
 | **Misc. Devices** | HDHomeRun EXTEND | no longer sold |
 | **Mini‑rack** | DeskPi RackMate T2 (10″ 12U) | $195.03* |
 | **Mini-rack Accessories** | T2 Metal Shelf, 0.5U Brush Cable Management, 1U Blank, 2x 2U Blank, Mounting Hardware | $94.51* |
-| Total | One bad ass closet that'll actually fit in a closet| $3459.32 |
+| Total | One bad ass closet that'll actually fit in a closet| $3472.94* |
 
 
 
