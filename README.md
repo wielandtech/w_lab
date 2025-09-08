@@ -22,7 +22,7 @@ Eventually, this project will culminate with my own private cloud and self-hoste
 | **Compute**	| 3x Dell OptiPlex 7060 (i5 i5-8500T CPU, 16GB RAM, 2.5GbE NIC) | $340.45 |
 | **NAS** | Synology DS923+ (2x Seagate IronWolf 8TB RAID1, 2x 500GB WD Red SN700 NVMe, 10GbE NIC) | $1,255* |
 | **UPS**	| Tripp Lite 600VA 300W UPS - BC600RNC | $155.09* |
-| **UPS**	| 4 Outlet PDU | $14.30* |
+| **PDU**	| 4 Outlet PDU | $14.30* |
 | **USB Power**	| 300 W USB‑C charging station | $24.78* |
 | **USB C Cables**	| 3x 60W USB-C to USB-C Cables | $10.59* |
 | **Misc. Devices** | Philips Hue Bridge | included with lights |
