@@ -1,10 +1,36 @@
 ### 🏠 w_lab
 My Kubernetes homelab: more expensive and less reliable than the cloud, but way more fun!
 
-![Image](https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_front.jpg)
-![Image](https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg)
-![Image](https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_right.jpg)
-![Image](https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_front.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_front.jpg" alt="Homelab Front View" width="400" style="max-width: 100%; height: auto;">
+      </a>
+      <br><em>Front View</em>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" alt="Homelab Left Side View" width="400" style="max-width: 100%; height: auto;">
+      </a>
+      <br><em>Left Side View</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_right.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_right.jpg" alt="Homelab Right Side View" width="400" style="max-width: 100%; height: auto;">
+      </a>
+      <br><em>Right Side View</em>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" alt="Homelab Back View" width="400" style="max-width: 100%; height: auto;">
+      </a>
+      <br><em>Back View</em>
+    </td>
+  </tr>
+</table>
 
 
 #### Motivation
@@ -39,5 +65,40 @@ Eventually, this project will culminate with my own private cloud and self-hoste
 
 
 
-#### Special Thanks 🙌
-* **Jeff Geerling** — “Project Mini Rack” for inspiring my Amazon shopping list.
+#### Software Stack
+This homelab runs a complete Kubernetes infrastructure with GitOps automation:
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| **Kubernetes** | K3s | Lightweight Kubernetes distribution |
+| **GitOps** | Flux v2 | Automated deployment and configuration management |
+| **Ingress** | Traefik | HTTP/HTTPS routing and load balancing |
+| **LoadBalancer** | MetalLB | LoadBalancer implementation for bare metal |
+| **Storage** | Synology CSI | Integration with NAS for persistent storage |
+| **Certificates** | cert-manager | Automated TLS certificate management |
+| **Secrets** | Sealed Secrets | Encrypted secrets management for GitOps |
+
+#### Applications & Services
+The cluster hosts a variety of self-hosted applications:
+
+**Media & Entertainment:**
+- **Plex Media Server** - Streaming with Intel QuickSync hardware transcoding
+
+**Home Automation:**
+- **Home Assistant** - Complete home automation platform
+
+**Monitoring & Observability:**
+- **Prometheus** - Metrics collection and alerting
+- **Grafana** - Visualization dashboards
+- **AlertManager** - Alert routing and management
+
+**Dashboard:**
+- **Homepage** - Unified dashboard with service integrations and widgets
+
+#### Repository Links
+- **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
+- **📸 Documentation**: [w_lab](https://github.com/wielandtech/w_lab) - Public documentation and photos
+
+#### Special Thanks 🙌
+* [**Jeff Geerling**](https://github.com/geerlingguy) — ["Project Mini Rack"](https://github.com/geerlingguy/mini-rack) for inspiring my shopping list.
+* [**Mischa van den Burg**](https://github.com/mischavandenburg) — ["K8S Homelab"](https://github.com/mischavandenburg/homelab) for inspiring my stack.
