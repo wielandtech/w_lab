@@ -62,7 +62,7 @@ The cluster hosts a variety of self-hosted applications:
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> AlertManager** - Alert routing and management
 
 **📱 Dashboard:**
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/homepage.svg" width="16" height="16"> Homepage** - Unified dashboard with service integrations and widgets
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/homer.svg" width="16" height="16"> Homepage** - Unified dashboard with service integrations and widgets
 
 ## 🔗 Repository Links
 - **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
