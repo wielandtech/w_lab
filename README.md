@@ -81,19 +81,19 @@ This homelab runs a complete Kubernetes infrastructure with GitOps automation:
 ## ⚡ Applications & Services
 The cluster hosts a variety of self-hosted applications:
 
-**Media & Entertainment:**
-- **Plex Media Server** - Streaming with Intel QuickSync hardware transcoding
+**🎬 Media & Entertainment:**
+- **<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Plex_logo_2018.svg" width="16" height="16"> Plex Media Server** - Streaming with Intel QuickSync hardware transcoding
 
-**Home Automation:**
-- **Home Assistant** - Complete home automation platform
+**🏠 Home Automation:**
+- **<img src="https://www.home-assistant.io/images/logo.svg" width="16" height="16"> Home Assistant** - Complete home automation platform
 
-**Monitoring & Observability:**
-- **Prometheus** - Metrics collection and alerting
-- **Grafana** - Visualization dashboards
-- **AlertManager** - Alert routing and management
+**📊 Monitoring & Observability:**
+- **<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg" width="16" height="16"> Prometheus** - Metrics collection and alerting
+- **<img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Grafana_logo.svg" width="16" height="16"> Grafana** - Visualization dashboards
+- **<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg" width="16" height="16"> AlertManager** - Alert routing and management
 
-**Dashboard:**
-- **Homepage** - Unified dashboard with service integrations and widgets
+**📱 Dashboard:**
+- **<img src="https://raw.githubusercontent.com/benphelps/homepage/main/public/favicon.ico" width="16" height="16"> Homepage** - Unified dashboard with service integrations and widgets
 
 ## 🔗 Repository Links
 - **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
