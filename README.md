@@ -1,37 +1,6 @@
 ### 🏠 w_lab
 My Kubernetes homelab: more expensive and less reliable than the cloud, but way more fun!
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_front.jpg" target="_blank">
-        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_front.jpg" alt="Homelab Front View" width="400" style="max-width: 100%; height: auto;">
-      </a>
-      <br><em>Front View</em>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" target="_blank">
-        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" alt="Homelab Back View" width="400" style="max-width: 100%; height: auto;">
-      </a>
-      <br><em>Back View</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" target="_blank">
-        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" alt="Homelab Left Side View" width="400" style="max-width: 100%; height: auto;">
-      </a>
-      <br><em>Left Side View</em>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_right.jpg" target="_blank">
-        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_right.jpg" alt="Homelab Right Side View" width="400" style="max-width: 100%; height: auto;">
-      </a>
-      <br><em>Right Side View</em>
-    </td>
-  </tr>
-</table>
-
 
 ## 🤖 Motivation
 The goal of this project is to give all of my networking toys a home that fits in the attic crawl-space or on a self in the basement.
@@ -82,18 +51,18 @@ This homelab runs a complete Kubernetes infrastructure with GitOps automation:
 The cluster hosts a variety of self-hosted applications:
 
 **🎬 Media & Entertainment:**
-- **<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Plex_logo_2018.svg" width="16" height="16"> Plex Media Server** - Streaming with Intel QuickSync hardware transcoding
+- **<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/plex.svg" width="16" height="16"> Plex Media Server** - Streaming with Intel QuickSync hardware transcoding
 
 **🏠 Home Automation:**
-- **<img src="https://www.home-assistant.io/images/logo.svg" width="16" height="16"> Home Assistant** - Complete home automation platform
+- **<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/homeassistant.svg" width="16" height="16"> Home Assistant** - Complete home automation platform
 
 **📊 Monitoring & Observability:**
 - **<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg" width="16" height="16"> Prometheus** - Metrics collection and alerting
-- **<img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Grafana_logo.svg" width="16" height="16"> Grafana** - Visualization dashboards
+- **<img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/grafana.svg" width="16" height="16"> Grafana** - Visualization dashboards
 - **<img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg" width="16" height="16"> AlertManager** - Alert routing and management
 
 **📱 Dashboard:**
-- **<img src="https://raw.githubusercontent.com/benphelps/homepage/main/public/favicon.ico" width="16" height="16"> Homepage** - Unified dashboard with service integrations and widgets
+- **🏠 Homepage** - Unified dashboard with service integrations and widgets
 
 ## 🔗 Repository Links
 - **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
@@ -102,3 +71,35 @@ The cluster hosts a variety of self-hosted applications:
 ## 🙏 Special Thanks
 * [**Jeff Geerling**](https://github.com/geerlingguy) — ["Project Mini Rack"](https://github.com/geerlingguy/mini-rack) for inspiring my shopping list.
 * [**Mischa van den Burg**](https://github.com/mischavandenburg) — ["K8S Homelab"](https://github.com/mischavandenburg/homelab) for inspiring my stack.
+
+## 📸 Gallery
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_front.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_front.jpg" alt="Homelab Front View" width="400" style="max-width: 100%; height: auto;">
+      </a>
+      <br><em>Front View</em>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_back.jpg" alt="Homelab Back View" width="400" style="max-width: 100%; height: auto;">
+      </a>
+      <br><em>Back View</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" alt="Homelab Left Side View" width="400" style="max-width: 100%; height: auto;">
+      </a>
+      <br><em>Left Side View</em>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_right.jpg" target="_blank">
+        <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_right.jpg" alt="Homelab Right Side View" width="400" style="max-width: 100%; height: auto;">
+      </a>
+      <br><em>Right Side View</em>
+    </td>
+  </tr>
+</table>
