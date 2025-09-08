@@ -50,19 +50,19 @@ This homelab runs a complete Kubernetes infrastructure with GitOps automation:
 ## ⚡ Applications & Services
 The cluster hosts a variety of self-hosted applications:
 
-**🎬 Media & Entertainment:**
+**Media & Entertainment:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/plex.svg" width="16" height="16"> Plex Media Server** - Streaming with Intel QuickSync hardware transcoding
 
-**🏠 Home Automation:**
+**Home Automation:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/home-assistant.svg" width="16" height="16"> Home Assistant** - Complete home automation platform
 
-**📊 Monitoring & Observability:**
+**Monitoring & Observability:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> Prometheus** - Metrics collection and alerting
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/grafana.svg" width="16" height="16"> Grafana** - Visualization dashboards
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> AlertManager** - Alert routing and management
 
-**📱 Dashboard:**
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/homer.svg" width="16" height="16"> Homepage** - Unified dashboard with service integrations and widgets
+**Dashboard:**
+- **🏠 Homepage** - Unified dashboard with service integrations and widgets
 
 ## 🔗 Repository Links
 - **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
