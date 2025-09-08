@@ -15,14 +15,14 @@ My Kubernetes homelab: more expensive and less reliable than the cloud, but way 
       </a>
       <br><em>Back View</em>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="50%">
       <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" target="_blank">
         <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_left.jpg" alt="Homelab Left Side View" width="400" style="max-width: 100%; height: auto;">
       </a>
       <br><em>Left Side View</em>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="50%">
       <a href="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_right.jpg" target="_blank">
         <img src="https://raw.githubusercontent.com/wielandtech/w_lab/main/w_homelab_right.jpg" alt="Homelab Right Side View" width="400" style="max-width: 100%; height: auto;">
