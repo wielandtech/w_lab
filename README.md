@@ -52,6 +52,7 @@ The cluster hosts a variety of self-hosted applications:
 
 **Media & Entertainment:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/plex.svg" width="16" height="16"> Plex Media Server** - Streaming with Intel QuickSync hardware transcoding
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/rss.svg" width="16" height="16"> CommaFeed** - Self-hosted RSS reader and aggregator
 
 **Home Automation:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/home-assistant.svg" width="16" height="16"> Home Assistant** - Complete home automation platform
@@ -63,6 +64,10 @@ The cluster hosts a variety of self-hosted applications:
 
 **Dashboard:**
 - **🏠 Homepage** - Unified dashboard with service integrations and widgets
+
+**Infrastructure:**
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/postgresql.svg" width="16" height="16"> PostgreSQL** - Production-ready database clusters with CloudNativePG
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/renovate.svg" width="16" height="16"> Renovate** - Automated dependency updates and security patches
 
 ## 🔗 Repository Links
 - **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
