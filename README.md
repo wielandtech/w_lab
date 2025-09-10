@@ -55,7 +55,6 @@ The cluster hosts a variety of self-hosted applications:
 
 **Media & Entertainment:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/plex.svg" width="16" height="16"> [Plex Media Server](https://www.plex.tv/)** - Streaming with Intel QuickSync hardware transcoding ([Install Guide](https://support.plex.tv/articles/200264746-quick-start-step-by-step-guides/))
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/transmission.svg" width="16" height="16"> [Transmission](https://transmissionbt.com/)** - BitTorrent client for media downloads ([GitHub](https://github.com/transmission/transmission))
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/radarr.svg" width="16" height="16"> [Radarr](https://radarr.video/)** - Movie collection manager and downloader ([GitHub](https://github.com/Radarr/Radarr))
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/sonarr.svg" width="16" height="16"> [Sonarr](https://sonarr.tv/)** - TV series collection manager and downloader ([GitHub](https://github.com/Sonarr/Sonarr))
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/lidarr.svg" width="16" height="16"> [Lidarr](https://lidarr.audio/)** - Music collection manager and downloader ([GitHub](https://github.com/Lidarr/Lidarr))
