@@ -70,7 +70,7 @@ The cluster hosts a variety of self-hosted applications:
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> Prometheus** - Metrics collection and alerting with 30-day retention
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/grafana.svg" width="16" height="16"> Grafana** - Visualization dashboards with persistent storage
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> AlertManager** - Alert routing and management
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/blackbox.svg" width="16" height="16"> Blackbox Exporter** - External endpoint monitoring and health checks
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> Blackbox Exporter** - External endpoint monitoring and health checks
 
 **Dashboard & Management:**
 - **🏠 Homepage** - Unified dashboard with service integrations and widgets
