@@ -61,7 +61,7 @@ The cluster hosts a variety of self-hosted applications:
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/lidarr.svg" width="16" height="16"> Lidarr** - Music collection manager and downloader
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/bazarr.svg" width="16" height="16"> Bazarr** - Subtitle management for movies and TV shows
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/ombi.svg" width="16" height="16"> Ombi** - Media request management system
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/rss.svg" width="16" height="16"> CommaFeed** - Self-hosted RSS reader and aggregator
+- **<img src="https://www.logo.wine/a/logo/CommaFeed/CommaFeed-Logo.wine.svg" width="16" height="16"> CommaFeed** - Self-hosted RSS reader and aggregator
 
 **Home Automation:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/home-assistant.svg" width="16" height="16"> Home Assistant** - Complete home automation platform
