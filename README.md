@@ -46,26 +46,37 @@ This homelab runs a complete Kubernetes infrastructure with GitOps automation:
 | **Storage** | Synology CSI | Integration with NAS for persistent storage |
 | **Certificates** | cert-manager | Automated TLS certificate management |
 | **Secrets** | Sealed Secrets | Encrypted secrets management for GitOps |
+| **Database** | CloudNativePG | Production-ready PostgreSQL operator |
+| **Monitoring** | Prometheus + Grafana | Metrics collection and visualization |
+| **Automation** | Renovate + n8n | Dependency updates and workflow automation |
 
 ## ⚡ Applications & Services
 The cluster hosts a variety of self-hosted applications:
 
 **Media & Entertainment:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/plex.svg" width="16" height="16"> Plex Media Server** - Streaming with Intel QuickSync hardware transcoding
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/transmission.svg" width="16" height="16"> Transmission** - BitTorrent client for media downloads
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/radarr.svg" width="16" height="16"> Radarr** - Movie collection manager and downloader
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/sonarr.svg" width="16" height="16"> Sonarr** - TV series collection manager and downloader
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/lidarr.svg" width="16" height="16"> Lidarr** - Music collection manager and downloader
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/bazarr.svg" width="16" height="16"> Bazarr** - Subtitle management for movies and TV shows
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/ombi.svg" width="16" height="16"> Ombi** - Media request management system
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/rss.svg" width="16" height="16"> CommaFeed** - Self-hosted RSS reader and aggregator
 
 **Home Automation:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/home-assistant.svg" width="16" height="16"> Home Assistant** - Complete home automation platform
 
 **Monitoring & Observability:**
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> Prometheus** - Metrics collection and alerting
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/grafana.svg" width="16" height="16"> Grafana** - Visualization dashboards
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> Prometheus** - Metrics collection and alerting with 30-day retention
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/grafana.svg" width="16" height="16"> Grafana** - Visualization dashboards with persistent storage
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> AlertManager** - Alert routing and management
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/blackbox.svg" width="16" height="16"> Blackbox Exporter** - External endpoint monitoring and health checks
 
-**Dashboard:**
+**Dashboard & Management:**
 - **🏠 Homepage** - Unified dashboard with service integrations and widgets
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/n8n.svg" width="16" height="16"> n8n** - Workflow automation platform with 400+ integrations
 
-**Infrastructure:**
+**Infrastructure & DevOps:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/postgresql.svg" width="16" height="16"> PostgreSQL** - Production-ready database clusters with CloudNativePG
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/renovate.svg" width="16" height="16"> Renovate** - Automated dependency updates and security patches
 
@@ -79,7 +90,7 @@ The cluster hosts a variety of self-hosted applications:
 
 ### 🖨️ 3D Print Files
 * [**Mauker**](https://www.printables.com/@Mauker_) — [Unifi USW-Ultra 10-inch Rack Mount](https://www.printables.com/model/963100-unifi-usw-ultra-10-inch-rack-mount), [Unifi UCG-Fiber 10-inch Rack Mount](https://www.printables.com/model/1235928-unifi-ucg-fiber-10-inch-rack-mount), [10-inch 1U Keystone Patchpanel x8 ports](https://www.printables.com/model/1180979-10-inch-12u-keystone-patchpanel-x8-ports)
-* [**TimPrints**](https://www.printables.com/@TimPrints) — [Dell OptiPlex 7060 MicroPC 10 Inch Rack Mount](https://www.printables.com/model/980541-dell-optiplex-7060-micropc-10-inch-rack-mount)
+* [**TimPrints**](https://www.printables.com/@TimPrints_686384) — [Dell OptiPlex 7060 MicroPC 10 Inch Rack Mount](https://www.printables.com/model/980541-dell-optiplex-7060-micropc-10-inch-rack-mount)
 
 ## 📸 Gallery
 <table>
