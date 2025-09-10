@@ -77,6 +77,10 @@ The cluster hosts a variety of self-hosted applications:
 * [**Jeff Geerling**](https://github.com/geerlingguy) — ["Project Mini Rack"](https://github.com/geerlingguy/mini-rack) for inspiring my shopping list.
 * [**Mischa van den Burg**](https://github.com/mischavandenburg) — ["K8S Homelab"](https://github.com/mischavandenburg/homelab) for inspiring my stack.
 
+### 🖨️ 3D Print Files
+* [**Mauker**](https://www.printables.com/@Mauker_) — [Unifi USW-Ultra 10-inch Rack Mount](https://www.printables.com/model/963100-unifi-usw-ultra-10-inch-rack-mount), [Unifi UCG-Fiber 10-inch Rack Mount](https://www.printables.com/model/1235928-unifi-ucg-fiber-10-inch-rack-mount), [10-inch 1U Keystone Patchpanel x8 ports](https://www.printables.com/model/1180979-10-inch-12u-keystone-patchpanel-x8-ports)
+* [**TimPrints**](https://www.printables.com/@TimPrints) — [Dell OptiPlex 7060 MicroPC 10 Inch Rack Mount](https://www.printables.com/model/980541-dell-optiplex-7060-micropc-10-inch-rack-mount)
+
 ## 📸 Gallery
 <table>
   <tr>
