@@ -54,31 +54,31 @@ This homelab runs a complete Kubernetes infrastructure with GitOps automation:
 The cluster hosts a variety of self-hosted applications:
 
 **Media & Entertainment:**
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/plex.svg" width="16" height="16"> Plex Media Server** - Streaming with Intel QuickSync hardware transcoding
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/transmission.svg" width="16" height="16"> Transmission** - BitTorrent client for media downloads
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/radarr.svg" width="16" height="16"> Radarr** - Movie collection manager and downloader
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/sonarr.svg" width="16" height="16"> Sonarr** - TV series collection manager and downloader
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/lidarr.svg" width="16" height="16"> Lidarr** - Music collection manager and downloader
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/bazarr.svg" width="16" height="16"> Bazarr** - Subtitle management for movies and TV shows
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/ombi.svg" width="16" height="16"> Ombi** - Media request management system
-- **<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/commafeed.svg" width="16" height="16"> CommaFeed** - Self-hosted RSS reader and aggregator
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/plex.svg" width="16" height="16"> [Plex Media Server](https://www.plex.tv/)** - Streaming with Intel QuickSync hardware transcoding ([Install Guide](https://support.plex.tv/articles/200264746-quick-start-step-by-step-guides/))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/transmission.svg" width="16" height="16"> [Transmission](https://transmissionbt.com/)** - BitTorrent client for media downloads ([GitHub](https://github.com/transmission/transmission))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/radarr.svg" width="16" height="16"> [Radarr](https://radarr.video/)** - Movie collection manager and downloader ([GitHub](https://github.com/Radarr/Radarr))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/sonarr.svg" width="16" height="16"> [Sonarr](https://sonarr.tv/)** - TV series collection manager and downloader ([GitHub](https://github.com/Sonarr/Sonarr))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/lidarr.svg" width="16" height="16"> [Lidarr](https://lidarr.audio/)** - Music collection manager and downloader ([GitHub](https://github.com/Lidarr/Lidarr))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/bazarr.svg" width="16" height="16"> [Bazarr](https://www.bazarr.media/)** - Subtitle management for movies and TV shows ([GitHub](https://github.com/morpheus65535/bazarr))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/ombi.svg" width="16" height="16"> [Ombi](https://ombi.io/)** - Media request management system ([GitHub](https://github.com/Ombi-app/Ombi))
+- **<img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/commafeed.svg" width="16" height="16"> [CommaFeed](https://www.commafeed.com/)** - Self-hosted RSS reader and aggregator ([GitHub](https://github.com/Athou/commafeed))
 
 **Home Automation:**
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/home-assistant.svg" width="16" height="16"> Home Assistant** - Complete home automation platform
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/home-assistant.svg" width="16" height="16"> [Home Assistant](https://www.home-assistant.io/)** - Complete home automation platform ([Installation Guide](https://www.home-assistant.io/installation/) | [GitHub](https://github.com/home-assistant/core))
 
 **Monitoring & Observability:**
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> Prometheus** - Metrics collection and alerting with 30-day retention
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/grafana.svg" width="16" height="16"> Grafana** - Visualization dashboards with persistent storage
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> AlertManager** - Alert routing and management
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> Blackbox Exporter** - External endpoint monitoring and health checks
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> [Prometheus](https://prometheus.io/)** - Metrics collection and alerting with 30-day retention ([Installation Guide](https://prometheus.io/docs/prometheus/latest/installation/) | [GitHub](https://github.com/prometheus/prometheus))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/grafana.svg" width="16" height="16"> [Grafana](https://grafana.com/)** - Visualization dashboards with persistent storage ([Installation Guide](https://grafana.com/docs/grafana/latest/setup-grafana/installation/) | [GitHub](https://github.com/grafana/grafana))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> [AlertManager](https://prometheus.io/docs/alerting/latest/alertmanager/)** - Alert routing and management ([GitHub](https://github.com/prometheus/alertmanager))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> [Blackbox Exporter](https://prometheus.io/docs/guides/multi-target-exporter/)** - External endpoint monitoring and health checks ([GitHub](https://github.com/prometheus/blackbox_exporter))
 
 **Dashboard & Management:**
-- **🏠 Homepage** - Unified dashboard with service integrations and widgets
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/n8n.svg" width="16" height="16"> n8n** - Workflow automation platform with 400+ integrations
+- **🏠 [Homepage](https://gethomepage.dev/)** - Unified dashboard with service integrations and widgets ([GitHub](https://github.com/gethomepage/homepage))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/n8n.svg" width="16" height="16"> [n8n](https://n8n.io/)** - Workflow automation platform with 400+ integrations ([Installation Guide](https://docs.n8n.io/hosting/) | [GitHub](https://github.com/n8n-io/n8n))
 
 **Infrastructure & DevOps:**
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/postgresql.svg" width="16" height="16"> PostgreSQL** - Production-ready database clusters with CloudNativePG
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/renovate.svg" width="16" height="16"> Renovate** - Automated dependency updates and security patches
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/postgresql.svg" width="16" height="16"> [PostgreSQL](https://www.postgresql.org/)** - Production-ready database clusters with CloudNativePG ([Installation Guide](https://www.postgresql.org/docs/current/installation.html) | [GitHub](https://github.com/postgres/postgres))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/renovate.svg" width="16" height="16"> [Renovate](https://renovatebot.com/)** - Automated dependency updates and security patches ([Documentation](https://docs.renovatebot.com/) | [GitHub](https://github.com/renovatebot/renovate))
 
 ## 🔗 Repository Links
 - **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
