@@ -46,8 +46,8 @@ This homelab runs a complete Kubernetes infrastructure with GitOps automation:
 | **Storage** | Synology CSI | Integration with NAS for persistent storage |
 | **Certificates** | cert-manager | Automated TLS certificate management |
 | **Secrets** | Sealed Secrets | Encrypted secrets management for GitOps |
-| **Database** | CloudNativePG | Production-ready PostgreSQL operator |
-| **Monitoring** | Prometheus + Grafana | Metrics collection and visualization |
+| **Database** | CloudNativePG + Redis | Production-ready PostgreSQL operator + caching layer |
+| **Monitoring** | Prometheus + Grafana + Netdata | Metrics collection, visualization, and AI-powered troubleshooting |
 | **Automation** | Renovate + n8n | Dependency updates and workflow automation |
 
 ## ⚡ Applications & Services
@@ -70,6 +70,7 @@ The cluster hosts a variety of self-hosted applications:
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/grafana.svg" width="16" height="16"> [Grafana](https://grafana.com/)** - Visualization dashboards with persistent storage ([Installation Guide](https://grafana.com/docs/grafana/latest/setup-grafana/installation/) | [GitHub](https://github.com/grafana/grafana))
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> [AlertManager](https://prometheus.io/docs/alerting/latest/alertmanager/)** - Alert routing and management ([GitHub](https://github.com/prometheus/alertmanager))
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/prometheus.svg" width="16" height="16"> [Blackbox Exporter](https://prometheus.io/docs/guides/multi-target-exporter/)** - External endpoint monitoring and health checks ([GitHub](https://github.com/prometheus/blackbox_exporter))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/netdata.svg" width="16" height="16"> [Netdata](https://www.netdata.cloud/)** - Real-time monitoring with AI-powered troubleshooting and per-second metrics collection ([Installation Guide](https://learn.netdata.cloud/docs/agent/packaging/installer/) | [GitHub](https://github.com/netdata/netdata))
 
 **Dashboard & Management:**
 - **🏠 [Homepage](https://gethomepage.dev/)** - Unified dashboard with service integrations and widgets ([GitHub](https://github.com/gethomepage/homepage))
@@ -77,11 +78,16 @@ The cluster hosts a variety of self-hosted applications:
 
 **Infrastructure & DevOps:**
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/postgresql.svg" width="16" height="16"> [PostgreSQL](https://www.postgresql.org/)** - Production-ready database clusters with CloudNativePG ([Installation Guide](https://www.postgresql.org/docs/current/installation.html) | [GitHub](https://github.com/postgres/postgres))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/redis.svg" width="16" height="16"> [Redis](https://redis.io/)** - In-memory data store for caching and sessions ([Installation Guide](https://redis.io/docs/getting-started/installation/) | [GitHub](https://github.com/redis/redis))
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/renovate.svg" width="16" height="16"> [Renovate](https://renovatebot.com/)** - Automated dependency updates and security patches ([Documentation](https://docs.renovatebot.com/) | [GitHub](https://github.com/renovatebot/renovate))
+
+**Web Services:**
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/django.svg" width="16" height="16"> [WielandTech Website](https://wielandtech.com/)** - Personal portfolio and blog self-hosted on the homelab cluster ([GitHub](https://github.com/wielandtech/w_tech))
 
 ## 🔗 Repository Links
 - **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
 - **📸 Documentation**: [w_lab](https://github.com/wielandtech/w_lab) - Public documentation and photos
+- **🌐 Personal Website**: [wielandtech.com](https://wielandtech.com/) - Self-hosted portfolio and blog ([Source Code](https://github.com/wielandtech/w_tech))
 
 ## 🙏 Special Thanks
 * [**Jeff Geerling**](https://github.com/geerlingguy) — ["Project Mini Rack"](https://github.com/geerlingguy/mini-rack) for inspiring my shopping list.
