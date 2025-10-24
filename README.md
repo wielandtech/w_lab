@@ -82,7 +82,7 @@ The cluster hosts a variety of self-hosted applications:
 - **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/renovate.svg" width="16" height="16"> [Renovate](https://renovatebot.com/)** - Automated dependency updates and security patches ([Documentation](https://docs.renovatebot.com/) | [GitHub](https://github.com/renovatebot/renovate))
 
 **Web Services:**
-- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/django.svg" width="16" height="16"> [WielandTech Website](https://wielandtech.com/)** - Personal portfolio and blog self-hosted on the homelab cluster ([GitHub](https://github.com/wielandtech/w_tech))
+- **<img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/python.svg" width="16" height="16"> [WielandTech Website](https://wielandtech.com/)** - Personal portfolio and blog self-hosted on the homelab cluster ([GitHub](https://github.com/wielandtech/w_tech))
 
 ## 🔗 Repository Links
 - **🔧 Infrastructure Code**: [w_homelab](https://github.com/wielandtech/w_homelab) - Private GitOps repository with Kubernetes manifests
