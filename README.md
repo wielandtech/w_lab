@@ -19,7 +19,7 @@ Eventually, this project will culminate with my own private cloud and self-hoste
 | **Patch Cables** | Assorted Monoprice Patch Cables | $87.92* |
 | **Patch Panel A** | DeskPi 12 Port CAT6 Network Patch Panel | $24.37* |
 | **Patch Panel B** | Rapink Mini 12 Port Cat6A Patch Panel | $29.68* |
-| **Compute**	| 3x Dell OptiPlex 7060 (i5 i5-8500T CPU, 16GB RAM, 2.5GbE NIC) | $340.45 |
+| **Compute**	| 3x Dell OptiPlex 7060 (i5-8500T CPU, 16GB RAM, 2.5GbE NIC) | $340.45 |
 | **NAS** | Synology DS923+ (2x Seagate IronWolf 8TB RAID1, 2x 500GB WD Red SN700 NVMe, 10GbE NIC) | $1,255* |
 | **UPS**	| Tripp Lite 600VA 300W UPS - BC600RNC | $155.09* |
 | **PDU**	| 4 Outlet PDU | $14.30* |
